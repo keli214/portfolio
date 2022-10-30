@@ -459,6 +459,10 @@ textarea {
   padding: 2em;
 }
 
+.projects-parallel_images{
+  display: flex;
+}
+
 .project-details__desc {
   margin: 0 0 7rem 0; }
   .project-details__desc-para {
