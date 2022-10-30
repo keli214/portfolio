@@ -105,11 +105,11 @@
           </div>
           <div class="project-details__content-main">
             <div class="project-details__desc">
-              <h3 class="project-details__content-title">Project Overview</h3>
+              <h3 class="project-details__content-title">Basic Ray Tracer</h3>
               <p class="project-details__desc-para">
                 This project started as part of the final programming assignment in 
-                CSE167: Introduction to Computer Graphics at UCSD, where I implmented a Whitted-style ray tracer in c++ from scratch. 
-                Rather than looping through each pixel for each object in the 3D scene, ray tracing generate light paths 
+                CSE167: Introduction to Computer Graphics at UCSD, where I implmented a Whitted-Style ray tracer in c++ from scratch. 
+                Rather than looping through each pixel for each object in the 3D scene which is used in rasterization, ray tracing generate light paths 
                 from the camera center toward the light sources. The basic ray tracer included features like refraction and soft shadow. 
                 Below are some images generated from the basic ray tracer:
 
@@ -124,42 +124,20 @@
                 alt="Detail Image"
                 class="project-details__img"
                 />
-              <p class="project-details__desc-para">
-                The project was later extended in CSE169: Rendering to generate accurate physically-based rendering with Monte Carlo integration, 
-                the speed performance of the ray tracring was improved by Embree. 
-              </p>
+              <h3 class="project-details__content-title">Monte Carlo Path Tracer</h3>
+                <p class="project-details__desc-para">
+                    The project was later extended in CSE169: Rendering to generate accurate physically-based rendering with Monte Carlo integration, 
+                    while the speed performance of the ray tracring was improved by Embree. While the point light source in basic ray tracing generated 
+                    good-looing results, they are unable to realistic lighting effects. 
+                </p>
+              
             </div>
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
-                <div class="skills__skill">HTML</div>
-                <div class="skills__skill">CSS</div>
-                <div class="skills__skill">JavaScript</div>
-                <div class="skills__skill">React</div>
-                <div class="skills__skill">SASS</div>
-                <div class="skills__skill">GIT</div>
-                <div class="skills__skill">Shopify</div>
-                <div class="skills__skill">Wordpress</div>
-                <div class="skills__skill">Google ADS</div>
-                <div class="skills__skill">Facebook Ads</div>
-                <div class="skills__skill">Android</div>
-                <div class="skills__skill">IOS</div>
+                <div class="skills__skill">C++</div>
+                <div class="skills__skill">Embree</div>
               </div>
-            </div>
-            <div class="project-details__links">
-              <h3 class="project-details__content-title">See Live</h3>
-              <a
-                href="#"
-                class="btn btn--med btn--theme project-details__links-btn"
-                target="_blank"
-                >Live Link</a
-              >
-              <a
-                href="#"
-                class="btn btn--med btn--theme-inv project-details__links-btn"
-                target="_blank"
-                >Code Link</a
-              >
             </div>
           </div>
         </div>
