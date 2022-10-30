@@ -454,6 +454,11 @@ textarea {
   max-width: 70rem;
   margin: auto; }
 
+.project-details__img {
+  width: 100%;
+  padding: 2em;
+}
+
 .project-details__desc {
   margin: 0 0 7rem 0; }
   .project-details__desc-para {
